@@ -1,4 +1,4 @@
-package camel.copyfiles;
+package camel.copyfiles.routes;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.RoutesBuilder;

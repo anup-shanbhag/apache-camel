@@ -1,8 +1,9 @@
-package camel.copyfiles;
+package camel.copyfiles.routes.process;
 
+import camel.copyfiles.processors.FilesRouteProcessor;
 import org.apache.camel.builder.RouteBuilder;
 
-public class FilesRouteWithTransformation extends RouteBuilder {
+public class FilesRouteWithProcess extends RouteBuilder {
     @Override
     public void configure() throws Exception {
         from("file:data/input?noop=true")

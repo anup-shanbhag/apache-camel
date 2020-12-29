@@ -1,4 +1,4 @@
-package camel.copyfiles;
+package camel.copyfiles.routes;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;

@@ -1,4 +1,4 @@
-package camel.copyfiles;
+package camel.copyfiles.routes.process;
 
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.test.junit4.CamelTestSupport;
@@ -6,10 +6,10 @@ import org.junit.Test;
 
 import java.io.File;
 
-public class FilesRouteWithTransformationTest extends CamelTestSupport {
+public class FilesRouteWithProcessTest extends CamelTestSupport {
     @Override
     protected RoutesBuilder createRouteBuilder(){
-        return new FilesRouteWithTransformation();
+        return new FilesRouteWithProcess();
     }
 
     @Test
